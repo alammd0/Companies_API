@@ -4,7 +4,11 @@ const CompanySchema = new mongoose.Schema({
     name : {
         type : String,
         required : true
-    }, 
+    },
+    
+    imageUrl : {
+        type : String,
+    },
 
     industry : {
         type : String,

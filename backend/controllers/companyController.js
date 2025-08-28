@@ -13,7 +13,6 @@ export async function getAllCompanies(req, res) {
             minFounded,
             maxFounded,
             location,
-            website,
             sort = '-createdAt',
         } = req.query;
 
@@ -26,9 +25,8 @@ export async function getAllCompanies(req, res) {
         if(minFounded) q.founded = { $gte : minFounded };
         if(maxFounded) q.founded = { $lte : maxFounded };
         if(location) q.location = location;
-        if(website) q.website = website;
-
-        const companies = await Company.find(q).sort(sort).limit(10);
+        
+        const companies = await Company.find(q).sort(sort).limit(20);
 
         res.status(200).json({
             companies
@@ -68,9 +66,9 @@ export async function getCompanyById(req, res) {
 // create a new company
 export async function createCompany(req, res) {
     try {
-        const { name, industry, description, employees, founded, location, website } = req.body
+        const { name, industry, description, imageUrl, employees, founded, location, website } = req.body
 
-        if(!name || !industry || !description || !employees || !founded || !location || !website){
+        if(!name || !industry || !description || !employees || !founded || !location || !website || !imageUrl){
             res.status(400).json({
                 message : "Missing required fields"
             })
@@ -84,7 +82,8 @@ export async function createCompany(req, res) {
             employees,
             founded,
             location,
-            website
+            website,
+            imageUrl
         });
 
         res.status(201).json({

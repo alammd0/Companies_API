@@ -2,148 +2,75 @@ export const IndianSoftwareCompanies = [
   {
     name: "SoftNova Solutions",
     industry: "Software",
+    imageUrl : "https://media.licdn.com/dms/image/v2/D560BAQHw4oQRUG0fuA/company-logo_200_200/company-logo_200_200/0/1724838888344/softnovatechnology_logo?e=2147483647&v=beta&t=gfzK7vPNUcrWd2Op557AuXHC-ysL_d21MVHrUYGltMA",
     description: "Enterprise web and mobile applications for SMBs.",
     employees: 48,
     founded: 2016,
-    location: "Bengaluru, India",
-    website: "https://www.softnova.io",
+    location: "India",
+    website: "https://softnovatech.com/",
     createAt: new Date("2024-01-20T11:30:00Z")
   },
   {
     name: "CodeCrafters Labs",
     industry: "Software",
+    imageUrl : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVVH3cNr_OKgRF6PVPHQ9SoQIbnyiePyhVoQ&s",
     description: "Custom software engineering, DevOps and platform work.",
     employees: 65,
     founded: 2014,
-    location: "Pune, India",
-    website: "https://www.codecrafters.co.in",
+    location: "India",
+    website: "https://codecrafterslabs.com/",
     createAt: new Date("2023-09-12T08:10:00Z")
-  },
-  {
-    name: "CloudMint Systems",
-    industry: "Software",
-    description: "Cloud-native engineering and managed Kubernetes services.",
-    employees: 120,
-    founded: 2012,
-    location: "Hyderabad, India",
-    website: "https://www.cloudmint.in",
-    createAt: new Date("2022-05-02T09:45:00Z")
   },
   {
     name: "NexaSoft",
     industry: "Software",
+    imageUrl : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1qA2G7HqXDLI9xT_GMXVquoXrSWe-9cNrRQ&s",
     description: "SaaS products for HR and payroll automation.",
     employees: 30,
     founded: 2019,
-    location: "Chennai, India",
-    website: "https://www.nexasoft.in",
+    location: "India",
+    website: "https://nexasofttechnologies.com/",
     createAt: new Date("2024-04-11T10:00:00Z")
   },
   {
     name: "ByteBridge Technologies",
     industry: "Software",
+    imageUrl : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGTPKHirTDZBhLRxRF6JUhAsejreuozrTUBg&s",
     description: "API-first integrations and backend platforms.",
     employees: 85,
     founded: 2015,
-    location: "Gurugram, India",
-    website: "https://www.bytebridge.tech",
+    location: "India",
+    website: "https://www.bytebt.com/",
     createAt: new Date("2023-06-01T13:20:00Z")
-  },
-  {
-    name: "UrbanLogix",
-    industry: "Software",
-    description: "Logistics route optimizations and fleet management software.",
-    employees: 140,
-    founded: 2010,
-    location: "New Delhi, India",
-    website: "https://www.urbanlogix.in",
-    createAt: new Date("2021-11-15T07:30:00Z")
-  },
-  {
-    name: "MosaicOps",
-    industry: "Software",
-    description: "Dev tooling, CI/CD pipelines and observability tooling.",
-    employees: 55,
-    founded: 2017,
-    location: "Mumbai, India",
-    website: "https://www.mosaicops.com",
-    createAt: new Date("2023-12-05T14:40:00Z")
-  },
-  {
-    name: "PixelStack",
-    industry: "Software",
-    description: "Frontend engineering and digital product studios.",
-    employees: 22,
-    founded: 2020,
-    location: "Kolkata, India",
-    website: "https://www.pixelstack.design",
-    createAt: new Date("2024-02-02T09:00:00Z")
-  },
-  {
-    name: "DataCraft Labs",
-    industry: "Software",
-    description: "Data engineering, ML pipelines and analytics solutions.",
-    employees: 40,
-    founded: 2018,
-    location: "Ahmadabad, India",
-    website: "https://www.datacraftlabs.in",
-    createAt: new Date("2023-03-21T09:10:00Z")
-  },
-  {
-    name: "OpenWave Solutions",
-    industry: "Software",
-    description: "Open-source-first tooling and integrations for SMEs.",
-    employees: 18,
-    founded: 2021,
-    location: "Jaipur, India",
-    website: "https://www.openwave.io",
-    createAt: new Date("2024-07-08T17:55:00Z")
-  },
-  {
-    name: "InfraSense",
-    industry: "Software",
-    description: "Infrastructure automation and monitoring platforms.",
-    employees: 90,
-    founded: 2013,
-    location: "Noida, India",
-    website: "https://www.infrasense.in",
-    createAt: new Date("2022-08-17T11:11:00Z")
-  },
-  {
-    name: "SynapseWorks",
-    industry: "Software",
-    description: "Product engineering and startup acceleration services.",
-    employees: 25,
-    founded: 2022,
-    location: "Kochi, India",
-    website: "https://www.synapseworks.co",
-    createAt: new Date("2024-06-01T14:44:00Z")
   },
 
   // Major global tech companies (India offices)
   {
-    name: "Google India",
+    name: "Google",
     industry: "Software",
+    imageUrl : "https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png",
     description: "Google's engineering and product teams in India (search, cloud, ads, maps).",
     employees: 6000,
     founded: 2004,
-    location: "Bengaluru, India",
-    website: "https://about.google/intl/en_in/locations/bengaluru/",
+    location: "India",
+    website: "https://www.google.com/about/careers/applications/",
     createAt: new Date("2020-01-01T09:00:00Z")
   },
   {
-    name: "Microsoft India (R&D)",
+    name: "Microsoft",
     industry: "Software",
+    imageUrl : "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",   
     description: "Microsoft's research & development and engineering centers in India.",
     employees: 8000,
     founded: 1990,
-    location: "Hyderabad, India",
+    location: "India",
     website: "https://www.microsoft.com/en-in",
     createAt: new Date("2020-02-01T09:00:00Z")
   },
   {
-    name: "Meta Platforms India (Facebook)",
+    name: "Facebook",
     industry: "Software",
+    imageUrl : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgy23_8cENkvHUaOFnaC3YWWNbJBGxvcBAHg&s",
     description: "Meta's engineering, infrastructure and product teams in India.",
     employees: 4500,
     founded: 2007,
@@ -152,8 +79,9 @@ export const IndianSoftwareCompanies = [
     createAt: new Date("2021-03-01T09:00:00Z")
   },
   {
-    name: "Amazon India (Tech)",
+    name: "Amazon",
     industry: "Software",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OqgshH8eyJx_DkSDU2T8lyj9YPX05xtfgQ&s",
     description: "Amazon's development centers for AWS, retail and logistics tech in India.",
     employees: 15000,
     founded: 2004,
@@ -164,18 +92,20 @@ export const IndianSoftwareCompanies = [
 
   // Additional well-known Indian software players
   {
-    name: "Zoho Corporation",
+    name: "Zoho",
     industry: "Software",
+    imageUrl : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWkcV4Bvgj7p2iau7dsKaUrHmDKny-Cywx6Q&s",
     description: "SaaS suite (CRM, finance, HR, collaboration) built end-to-end in India.",
     employees: 12000,
     founded: 1996,
     location: "Chennai, India",
-    website: "https://www.zoho.com",
+    website: "https://www.zohocorp.com/",
     createAt: new Date("2022-07-01T08:00:00Z")
   },
   {
     name: "Freshworks",
     industry: "Software",
+    imageUrl : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRom7QFRDzStJ8Z14BJ3s3kh7chCYgyqgzkvA&s",
     description: "Customer engagement SaaS (support, sales and marketing tools).",
     employees: 4500,
     founded: 2010,
@@ -184,8 +114,9 @@ export const IndianSoftwareCompanies = [
     createAt: new Date("2023-05-15T10:20:00Z")
   },
   {
-    name: "Paytm (Tech)",
+    name: "Paytm",
     industry: "Software",
+    imageUrl : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfPk1XTao7TKu_mp8kqNj9FRAuEGqLeZvM6Q&s",
     description: "Payments, financial services and large-scale engineering teams in India.",
     employees: 6000,
     founded: 2010,
@@ -194,12 +125,13 @@ export const IndianSoftwareCompanies = [
     createAt: new Date("2021-09-10T09:30:00Z")
   },
   {
-    name: "Flipkart (Tech)",
+    name: "Flipkart",
     industry: "Software",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVWzGxiYGlEM-IzG4PWRrn875F0LOcXLulhQ&s",
     description: "E-commerce platform with large engineering and data teams.",
     employees: 9000,
     founded: 2007,
-    location: "Bengaluru, India",
+    location: "USA",
     website: "https://www.flipkart.com",
     createAt: new Date("2022-11-11T09:09:00Z")
   }
